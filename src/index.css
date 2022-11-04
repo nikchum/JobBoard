@@ -1,15 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import-normalize; /* bring in normalize.css styles */
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: local("Proxima Nova"), url("./font/proxima-nova.ttf") format('truetype')
+}
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Proxima Nova', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: #E6E9F2;
+}
+
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+
+  display:block;
+}
+
+button {
+  outline: none
+}
+
+span > .MuiSvgIcon-root {
+  fill: #384564 ;
 }
