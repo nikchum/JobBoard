@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JobBoard/static/css/main.0a6a51f1.css",
-    "main.js": "/JobBoard/static/js/main.761e3567.js",
+    "main.css": "/JobBoard/static/css/main.2d4cd8d7.css",
+    "main.js": "/JobBoard/static/js/main.5c576f2e.js",
     "static/media/proxima-nova.ttf": "/JobBoard/static/media/proxima-nova.8181ca4b7c2d1189d78a.ttf",
     "static/media/star.svg": "/JobBoard/static/media/star.7ee2b6ab159b931ac3dcaf9088f23591.svg",
     "static/media/slick.svg": "/JobBoard/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -13,11 +13,11 @@
     "static/media/arrow.svg": "/JobBoard/static/media/arrow.81b0f26cb6486aa14408fc44c9104536.svg",
     "static/media/bookmark.svg": "/JobBoard/static/media/bookmark.2aaeb9ed121c166915fe225b4885147f.svg",
     "static/media/location.svg": "/JobBoard/static/media/location.1c093ca173a538132f1ce31ab6296061.svg",
-    "main.0a6a51f1.css.map": "/JobBoard/static/css/main.0a6a51f1.css.map",
-    "main.761e3567.js.map": "/JobBoard/static/js/main.761e3567.js.map"
+    "main.2d4cd8d7.css.map": "/JobBoard/static/css/main.2d4cd8d7.css.map",
+    "main.5c576f2e.js.map": "/JobBoard/static/js/main.5c576f2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a6a51f1.css",
-    "static/js/main.761e3567.js"
+    "static/css/main.2d4cd8d7.css",
+    "static/js/main.5c576f2e.js"
   ]
 }
