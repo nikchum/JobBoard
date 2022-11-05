@@ -9,7 +9,7 @@ export const AdditionaItem = ({ item, benefits = false }) => {
       <div
         className={`${
           benefits ? benefitsStyle : employmentStyle
-        } flex px-3 justify-center items-center font-bold text-sl border tracking-tight rounded-lg h-[50px] `}
+        } flex px-3 justify-center items-center font-bold text-sl border tracking-tight rounded-lg h-[50px] xl:px-[70px] `}
       >
         {item}
       </div>

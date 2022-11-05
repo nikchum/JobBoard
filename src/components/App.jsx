@@ -4,7 +4,6 @@ import { fetchAllJobs } from 'redux/jobs/jobOperations';
 import { useDispatch, useSelector } from 'react-redux';
 import { JobBoard } from 'pages/JobBoard';
 import { JobDetails } from 'pages/JobDetails';
-import axios from 'axios';
 import { selectorGetJobs } from 'redux/jobs/jobSelectors';
 
 export const App = () => {

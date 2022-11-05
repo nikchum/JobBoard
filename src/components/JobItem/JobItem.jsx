@@ -1,19 +1,32 @@
 import { Rating } from '@mui/material';
 import { ReactComponent as Location } from '../../img/location.svg';
 import { ReactComponent as Bookmark } from '../../img/bookmark.svg';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { selectorGetJobs } from '../../redux/jobs/jobSelectors';
+import {
+  selectorGetJobs,
+  selectorCurrentPage,
+} from '../../redux/jobs/jobSelectors';
 import { randomRating } from '../../functions/commonFunctions';
 import { Link } from 'react-router-dom';
 import { PostedDays } from 'components/PostedDays';
 
 export const JobItem = () => {
+  const [currentJobs, setCurrentJobs] = useState(null);
+
+  const currentPage = useSelector(selectorCurrentPage);
   const jobs = useSelector(selectorGetJobs);
 
+  useEffect(() => {
+    const getJobsForPage = () =>
+      jobs.slice((currentPage - 1) * 10, currentPage * 10);
+
+    setCurrentJobs(getJobsForPage());
+  }, [currentPage, jobs]);
+
   return (
-    jobs &&
-    jobs.map(item => {
+    currentJobs &&
+    currentJobs.map(item => {
       const { id, name, title, address, pictures, createdAt } = item;
       return (
         <li
@@ -60,7 +73,7 @@ export const JobItem = () => {
               </div>
             </div>
           </div>
-          <div className="sm:hidden xl:flex">
+          <div className="hidden xl:flex">
             <Rating
               className="flex items-center"
               name="half-rating"

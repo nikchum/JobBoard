@@ -48,3 +48,79 @@ button {
 span > .MuiSvgIcon-root {
   fill: #384564 ;
 }
+
+ nav.MuiPagination-root {
+   padding: 2px 0;
+   background-color: #F9FAFD;
+   border-radius: 8px;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+ }
+
+@media screen and (min-width: 1440px) {
+nav.MuiPagination-root {
+    padding: 4px 0;
+    background-color: #FFFFFF;
+  }
+}
+
+ul.MuiPagination-ul > li:last-child {
+border-left: 1.3px solid #DEE3EF;
+}
+
+ul.MuiPagination-ul>li:first-child {
+  border-right: 1.3px solid #DEE3EF;
+}
+
+
+button.MuiPaginationItem-page {
+background-color: inherit ;
+color: rgba(56, 65, 93, 0.602109);
+font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.33333px;
+}
+
+@media screen and (min-width: 1440px) {
+  button.MuiPaginationItem-page {
+  font-size: 20.8px;
+    line-height: 25px;
+    letter-spacing: 1.73333px;
+    color:#70778B
+    }
+}
+
+button.MuiPaginationItem-page[aria-current] {
+  position: relative;
+  background-color: inherit;
+  color: #55699E;
+}
+
+@media screen and (min-width: 1440px) {
+button.MuiPaginationItem-page[aria-current] {
+    color: #5876C5;
+  }
+}
+
+button.MuiPaginationItem-page[aria-current]::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 24px;
+  height: 2px;
+  background-color: #55699E;
+  transform: translateX(-50%);
+
+}
+
+@media screen and (min-width: 1440px) {
+  button.MuiPaginationItem-page[aria-current]::after {
+bottom: -2.6px;
+      width: 32px;
+      height: 2.6px;
+
+    }
+}
