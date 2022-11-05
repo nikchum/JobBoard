@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/JobBoard/static/css/main.7acaea2f.css",
-    "main.js": "/JobBoard/static/js/main.07d3183d.js",
+    "main.css": "/JobBoard/static/css/main.0a6a51f1.css",
+    "main.js": "/JobBoard/static/js/main.761e3567.js",
+    "static/media/proxima-nova.ttf": "/JobBoard/static/media/proxima-nova.8181ca4b7c2d1189d78a.ttf",
+    "static/media/star.svg": "/JobBoard/static/media/star.7ee2b6ab159b931ac3dcaf9088f23591.svg",
+    "static/media/slick.svg": "/JobBoard/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/JobBoard/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/JobBoard/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/JobBoard/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/JobBoard/index.html",
-    "main.7acaea2f.css.map": "/JobBoard/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/JobBoard/static/js/main.07d3183d.js.map"
+    "static/media/shape.svg": "/JobBoard/static/media/shape.14f9ee50b9d134666b10f63dc344ff6b.svg",
+    "static/media/arrow.svg": "/JobBoard/static/media/arrow.81b0f26cb6486aa14408fc44c9104536.svg",
+    "static/media/bookmark.svg": "/JobBoard/static/media/bookmark.2aaeb9ed121c166915fe225b4885147f.svg",
+    "static/media/location.svg": "/JobBoard/static/media/location.1c093ca173a538132f1ce31ab6296061.svg",
+    "main.0a6a51f1.css.map": "/JobBoard/static/css/main.0a6a51f1.css.map",
+    "main.761e3567.js.map": "/JobBoard/static/js/main.761e3567.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.0a6a51f1.css",
+    "static/js/main.761e3567.js"
   ]
 }
