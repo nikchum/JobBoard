@@ -47,7 +47,7 @@ export const JobDetails = () => {
   return (
     <main className="xl:bg-secondary-bg xl:pb-[105px]">
       <Wrapper padding={'px-4 xl:px-[90px]'} bgColor={'bg-secondary-bg '}>
-        <div className="pt-[24px] pb-[37px] xl:flex xl:pt-14 xl:pb-0 xl:gap-[130px]">
+        <section className="pt-[24px] pb-[37px] xl:flex xl:pt-14 xl:pb-0 xl:gap-[130px]">
           <div>
             <div className="xl:flex justify-between items-center">
               <div className="xl:hidden">
@@ -81,22 +81,22 @@ export const JobDetails = () => {
             <div className="hidden xl:block mt-[7px] ">
               <PostedDays created={createdAt} />
             </div>
-            <div className="flex justify-between items-center mt-1 xl:hidden">
+            <section className="flex justify-between items-center mt-1 xl:hidden">
               <PostedDays created={createdAt} />
               <Salary salary={salary} />
-            </div>
+            </section>
             <p className="mt-[14px] font-normal text-lg tracking-tighter opacity-[0.8] text-[#38415d] xl:mt-[7px] xl:font-sans">
               {description}
             </p>
-            <div className="mt-[43px] ">
+            <section className="mt-[43px] ">
               <h3 className="font-bold text-lg tracking-tighter text-primary-text xl:text-lx xl:tracking-[-0.62px]">
                 Responsopilities
               </h3>
               <p className="mt-2 font-normal text-lg tracking-tighter opacity-[0.8] text-[#38415d] xl:mt-4 xl:font-sans">
                 {responsibilities}
               </p>
-            </div>
-            <div className="mt-5 xl:mt-[43px] ">
+            </section>
+            <section className="mt-5 xl:mt-[43px] ">
               <h3 className="font-bold text-lg tracking-tighter text-primary-text xl:text-lx xl:tracking-[-0.62px]">
                 Compensation & Benefits:
               </h3>
@@ -107,7 +107,7 @@ export const JobDetails = () => {
               <div className="flex justify-center xl:block">
                 <Button text="APPLY NOW" />
               </div>
-            </div>
+            </section>
             <div className="xl:flex xl:flex-col-reverse xl:mt-[41px]">
               <section className="mt-[135px] xl:mt-[67px] ">
                 <Title text="Attached images" />
@@ -138,7 +138,7 @@ export const JobDetails = () => {
               />
             </div>
           </section>
-        </div>
+        </section>
         <div className="hidden xl:block pt-[80px] ml-[-90px]">
           <Button text="RETURN TO JOB BOARD" back path="/job-board" />
         </div>

@@ -1,5 +1,5 @@
-import { getDifferenceOfDays } from 'functions/commonFunctions';
 import React from 'react';
+import { getDifferenceOfDays } from 'functions/commonFunctions';
 
 export const PostedDays = ({ created }) => {
   return (

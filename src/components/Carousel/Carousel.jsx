@@ -1,6 +1,6 @@
-import { nanoid } from 'nanoid';
 import React from 'react';
 import Slider from 'react-slick';
+import { nanoid } from 'nanoid';
 
 export const Carousel = ({ pictures, count }) => {
   const settingsSlider = {

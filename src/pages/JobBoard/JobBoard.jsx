@@ -1,10 +1,10 @@
-import { Pagination } from '@mui/material';
-import { JobItem } from 'components/JobItem';
-import { Wrapper } from 'components/Wrapper';
 import React from 'react';
+import { Pagination } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectorTotalPages } from 'redux/jobs/jobSelectors';
 import { changePage } from 'redux/jobs/jobSlice';
+import { JobItem } from 'components/JobItem';
+import { Wrapper } from 'components/Wrapper';
 
 export const JobBoard = () => {
   const dispatch = useDispatch();

@@ -1,15 +1,15 @@
+import React, { useEffect, useState } from 'react';
 import { Rating } from '@mui/material';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import { PostedDays } from 'components/PostedDays';
 import { ReactComponent as Location } from '../../img/location.svg';
 import { ReactComponent as Bookmark } from '../../img/bookmark.svg';
-import React, { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
 import {
   selectorGetJobs,
   selectorCurrentPage,
 } from '../../redux/jobs/jobSelectors';
 import { randomRating } from '../../functions/commonFunctions';
-import { Link } from 'react-router-dom';
-import { PostedDays } from 'components/PostedDays';
 
 export const JobItem = () => {
   const [currentJobs, setCurrentJobs] = useState(null);

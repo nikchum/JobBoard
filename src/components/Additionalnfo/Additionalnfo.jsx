@@ -1,7 +1,7 @@
+import React from 'react';
+import { nanoid } from 'nanoid';
 import { AdditionaItem } from 'components/AdditionaItem';
 import { Title } from 'components/Title';
-import { nanoid } from 'nanoid';
-import React from 'react';
 
 export const Additionalnfo = ({ employment, benefits }) => {
   return (

@@ -1,6 +1,6 @@
-import { CompensationItem } from 'components/CompensationItem';
-import { nanoid } from 'nanoid';
 import React from 'react';
+import { nanoid } from 'nanoid';
+import { CompensationItem } from 'components/CompensationItem';
 
 export const CompensationList = ({ compensation }) => {
   return (

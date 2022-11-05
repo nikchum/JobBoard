@@ -18,7 +18,7 @@ export const Address = props => {
 
   return (
     <>
-      <div className="font-normal px-[62px] py-[32px] text-base tracking-tighter text-[#E7EAF0]">
+      <address className="font-normal px-[62px] py-[32px] text-base tracking-tighter text-[#E7EAF0] not-italic">
         <p className="font-bold text-normal tracking-wider ">
           Department name.
         </p>
@@ -31,7 +31,7 @@ export const Address = props => {
           {phone}
         </p>
         <p className="text-secondary-bg opacity-60 tracking-wider">{email}</p>
-      </div>
+      </address>
       <div className="relative ">
         <img className="rounded-b-lg" src={imgUrl} alt="map" />
         <span className=" absolute inset-0 bg-primary-map opacity-[0.25] rounded-b-lg"></span>

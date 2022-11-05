@@ -12,11 +12,6 @@
 body {
   margin: 0;
   font-family: 'Proxima Nova', sans-serif;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
   background-color: #E6E9F2;
 }
 
@@ -45,26 +40,31 @@ button {
   outline: none
 }
 
-span > .MuiSvgIcon-root {
-  fill: #384564 ;
+
+
+
+/* Pgination slyles */
+
+span>.MuiSvgIcon-root {
+  fill: #384564;
 }
 
- nav.MuiPagination-root {
-   padding: 2px 0;
-   background-color: #F9FAFD;
-   border-radius: 8px;
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
- }
+nav.MuiPagination-root {
+  padding: 2px 0;
+  background-color: #F9FAFD;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
 
 @media screen and (min-width: 1440px) {
-nav.MuiPagination-root {
+  nav.MuiPagination-root {
     padding: 4px 0;
     background-color: #FFFFFF;
   }
 }
 
-ul.MuiPagination-ul > li:last-child {
-border-left: 1.3px solid #DEE3EF;
+ul.MuiPagination-ul>li:last-child {
+  border-left: 1.3px solid #DEE3EF;
 }
 
 ul.MuiPagination-ul>li:first-child {
@@ -73,9 +73,9 @@ ul.MuiPagination-ul>li:first-child {
 
 
 button.MuiPaginationItem-page {
-background-color: inherit ;
-color: rgba(56, 65, 93, 0.602109);
-font-family: 'Proxima Nova';
+  background-color: inherit;
+  color: rgba(56, 65, 93, 0.602109);
+  font-family: 'Proxima Nova';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -85,11 +85,11 @@ font-family: 'Proxima Nova';
 
 @media screen and (min-width: 1440px) {
   button.MuiPaginationItem-page {
-  font-size: 20.8px;
+    font-size: 20.8px;
     line-height: 25px;
     letter-spacing: 1.73333px;
-    color:#70778B
-    }
+    color: #70778B
+  }
 }
 
 button.MuiPaginationItem-page[aria-current] {
@@ -99,7 +99,7 @@ button.MuiPaginationItem-page[aria-current] {
 }
 
 @media screen and (min-width: 1440px) {
-button.MuiPaginationItem-page[aria-current] {
+  button.MuiPaginationItem-page[aria-current] {
     color: #5876C5;
   }
 }
@@ -118,9 +118,9 @@ button.MuiPaginationItem-page[aria-current]::after {
 
 @media screen and (min-width: 1440px) {
   button.MuiPaginationItem-page[aria-current]::after {
-bottom: -2.6px;
-      width: 32px;
-      height: 2.6px;
+    bottom: -2.6px;
+    width: 32px;
+    height: 2.6px;
 
-    }
+  }
 }

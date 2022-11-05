@@ -9,9 +9,11 @@ import { store } from 'redux/jobs/store';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="/JobBoard/">
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </Provider>
   </React.StrictMode>
 );
+
+// basename = '/JobBoard/';
