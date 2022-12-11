@@ -1,8 +1,10 @@
-# JobBoard
+# Проект [JobBoard](https://nikchum.github.io/job-board)
+
+## Виконане технічне завдання на посаду frontend developer.
 
 Невелике пояснення.
 
-1. Використовувалися бібліотеки Redux, axios, material-ui (пагінація та
+1. Використовувалися бібліотеки React, Redux, axios, material-ui (пагінація та
    рейтинг), nanoid, slick, tailwindcss.
 
 2. Для роботи пагінації зробив рендер по 10 робіт на сторінці.
